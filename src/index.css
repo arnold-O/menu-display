@@ -17,7 +17,7 @@ margin: 0 auto;
   flex-wrap: wrap;
  
 
-  margin-top: 40px;
+  margin-top: 0px;
 
 }
 .foodItem-container{
@@ -55,6 +55,7 @@ margin: 0 auto;
   text-align:justify;  
   text-justify:auto;
   color: grey;
+ 
 }
 
 .titleOfMeal{
@@ -63,4 +64,40 @@ margin: 0 auto;
 }
 .priceOfMeal{
   color: orange;
+}
+
+.btnMenuBar{
+  padding: 8px 15px;
+  color: orange;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  font-size: 25px;
+  
+}
+.btnMenuBar:hover{
+  border: 1px solid skyblue;
+
+}
+
+.btnmenu-Container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+}
+
+ul li{
+  font-size: 30px;
+}
+
+
+.toggleBtn{
+  border: none;
+  outline: none;
+  background-color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  display: inline;
 }
