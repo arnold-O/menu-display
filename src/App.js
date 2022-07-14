@@ -23,9 +23,8 @@ function App() {
     
   };
 
-
   return (
-    <div className="">
+    <div className=""> 
       <h1>Our Menu</h1>
 
       <div>
